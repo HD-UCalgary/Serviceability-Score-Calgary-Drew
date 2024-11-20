@@ -22,14 +22,23 @@ Produced network analysis layers for driving, biking, and walking transportation
 The ArcPy Scripts folder needs to be downloaded and extracted to the home (root) folder of an ArcGIS geospatial project. Scripts need to remain under the same functioning folder to function correctly.
 
 Ideally, point shapefiles or XY data should exist for the following essential services in a city, called facilities:
+
     - Bus Stops
+    
     - Rail Stations (LRT/Heavy/HSR)
+    
     - Grocery Stores (including convienence stores)
+    
     - Fire Stations
+    
     - Primary Care Facilities
+    
     - Elementary Schools
+    
     - Junior High Schools
+    
     - Senior High Schools
+    
 # Service_Area_Analysis.py
 To run the script:
 
