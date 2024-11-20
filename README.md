@@ -43,22 +43,28 @@ Ideally, point shapefiles or XY data should exist for the following essential se
 To run the script:
 
 1.  A geodatabase needs to be created under the home (root) project folder with the exact naming called "Facility Database":
+   
 2.  Import the provided Network Geodatabase to the home (root) folder.
+   
 3.  Import all facilities needed to generate service areas as feature classes to the "Facility Database" geodatabase.
+   
 4.  IF choosing a different city or location to perform analysis, the script will need to be tweaked to point towards network datasets of that location. Be sure to keep the transportation modes (and time cutoffs) of roadway networks to be titled to "Driving" and include a turn restriction layer (again, will need to be tweaked in the script), and pathway/pedestrian networks titled "Biking" and "Walking".
+   
 5.  Run the script. After finishing, produced service area layer files can be found under the new "Service Area Layers" folder created in the home (root) project directory.
 # MCDA_Analysis.py
 To run the script:
 
 1.  Run the Service_Area_Analysis.py script as described above.
+   
 2.  Import the MCDA geoprocessing toolbox into ArcGIS Pro
+   
 3.  Follow the parameter instructions:
         - Check/Uncheck components of the analysis wanted (note. unchecking early steps on first run will break the script).
         - Set facility names for each category to the proper facility feature class (the same names as used in the Service_Area_Analysis script, for each facility in the Facility Database)
         - Set location of city boundary shapefile or feature class.
         - Set location of clipped geometry of desired zones of city for final score generation filtering (the project only scores residential and commercial districts of Calgary, for example).
         
-5.  Run the script. After finishing, scored rasters will be produced under the MCDA Rasters.gdb geodatabase.
+4.  Run the script. After finishing, scored rasters will be produced under the MCDA Rasters.gdb geodatabase.
    
 # Sharing and access information
 The code provided, along with the final result figures, graphs, and tables are licensed under a Creative Commons 1.0 Universal License. More information about the full usage rights under this can be found under the license file or tab.
