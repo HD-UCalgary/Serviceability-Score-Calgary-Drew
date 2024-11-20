@@ -42,8 +42,7 @@ Ideally, point shapefiles or XY data should exist for the following essential se
 # Service_Area_Analysis.py
 To run the script:
 
-1.  A geodatabase needs to be created under the home (root) project folder with the exact naming format below:
-        - Facility Database
+1.  A geodatabase needs to be created under the home (root) project folder with the exact naming called "Facility Database":
 2.  Import the provided Network Geodatabase to the home (root) folder.
 3.  Import all facilities needed to generate service areas as feature classes to the "Facility Database" geodatabase.
 4.  IF choosing a different city or location to perform analysis, the script will need to be tweaked to point towards network datasets of that location. Be sure to keep the transportation modes (and time cutoffs) of roadway networks to be titled to "Driving" and include a turn restriction layer (again, will need to be tweaked in the script), and pathway/pedestrian networks titled "Biking" and "Walking".
