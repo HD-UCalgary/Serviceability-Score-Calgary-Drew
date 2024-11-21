@@ -63,8 +63,10 @@ To run the script:
 1. Acquire vehicle (driving), pedestrian, and biking network datasets. IF choosing a different city or location to perform analysis, be sure to keep the transportation modes (and time cutoffs) of roadway networks to be titled to "Driving" and include a turn restriction feature class or shapefile, and pathway/pedestrian networks titled "Biking" and "Walking".
    
 2. Import all facilities needed to generate service areas as feature classes to your chosen Facility geodatabase.
+
+3. Import the MCDA geoprocessing toolbox into ArcGIS Pro
    
-3. Follow the parameter instructions when running the script:
+4. Follow the parameter instructions when running the script:
 
        - Set driving, pedestrian, and biking network locations to their appropiate network datasets.
 
