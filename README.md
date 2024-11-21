@@ -3,6 +3,8 @@
 
 **Institution:** University of Calgary - Department of Geography
 
+**Undergraduate Course Name:** GEOG 587 - Geospatial Project Management
+
 **UCID:** 30115014
 
 **Email:** harrison.drew@ucalgary.ca
