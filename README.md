@@ -70,12 +70,13 @@ To run the script:
 2. Import the MCDA geoprocessing toolbox into ArcGIS Pro
    
 3. Follow the parameter instructions:
+   
         - Check/Uncheck components of the analysis wanted (note. unchecking early steps on first run will break the script).
         - Set facility names for each category to the proper facility feature class (the same names as used in the Service_Area_Analysis script, for each facility in the Facility Database)
         - Set location of city boundary shapefile or feature class.
         - Set location of clipped geometry of desired zones of city for final score generation filtering (the project only scores residential and commercial districts of Calgary, for example).
         
-4. Run the script. After finishing, scored rasters will be produced under the MCDA Rasters.gdb geodatabase.
+5. Run the script. After finishing, scored rasters will be produced under the MCDA Rasters.gdb geodatabase.
    
 # Sharing and access information
 The code provided, along with the final result figures, graphs, and tables are licensed under a Creative Commons 1.0 Universal License. More information about the full usage rights under this can be found under the license file or tab.
