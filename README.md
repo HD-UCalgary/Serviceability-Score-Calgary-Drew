@@ -71,7 +71,7 @@ To run the script:
    
 2. Import the MCDA geoprocessing toolbox into ArcGIS Pro
    
-3. Follow the parameter instructions:
+3. Follow the parameter instructions when running the script:
    
         - Check/Uncheck components of the analysis wanted (note. unchecking early steps on first run will break the script).
 
