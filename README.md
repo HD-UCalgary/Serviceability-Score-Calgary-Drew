@@ -60,13 +60,17 @@ Feature classes or polygon shapefiles are needed for the following boundaries:
 # Service_Area_Analysis.py
 To run the script:
 
-1. A geodatabase needs to be created under the home (root) project folder with the exact naming called "Facility Database".
+1. Acquire vehicle (driving), pedestrian, and biking network datasets. IF choosing a different city or location to perform analysis, be sure to keep the transportation modes (and time cutoffs) of roadway networks to be titled to "Driving" and include a turn restriction feature class or shapefile, and pathway/pedestrian networks titled "Biking" and "Walking".
    
-2. Import the provided Network Geodatabase to the home (root) folder.
+2. Import all facilities needed to generate service areas as feature classes to your chosen Facility geodatabase.
    
-3. Import all facilities needed to generate service areas as feature classes to the "Facility Database" geodatabase.
-   
-4. IF choosing a different city or location to perform analysis, the script will need to be tweaked to point towards network datasets of that location. Be sure to keep the transportation modes (and time cutoffs) of roadway networks to be titled to "Driving" and include a turn restriction layer (again, will need to be tweaked in the script), and pathway/pedestrian networks titled "Biking" and "Walking".
+3. Follow the parameter instructions when running the script:
+
+       - Set driving, pedestrian, and biking network locations to their appropiate network datasets.
+
+       - Set road restrictions to the feature class or shapefile containing the road turn restrictions.
+
+       - Set the Facility Database to the appropiate Geodatabase containing the facilities to calculate service areas for.
    
 5. Run the script. After finishing, produced service area layer files can be found under the new "Service Area Layers" folder created in the home (root) project directory.
 # MCDA_Analysis.py
@@ -86,7 +90,7 @@ To run the script:
    
         - Set location of clipped geometry of desired zones of city for final score generation filtering (the project only scores residential and commercial districts of Calgary, for example).
         
-5. Run the script. After finishing, scored rasters will be produced under the MCDA Rasters.gdb geodatabase.
+4. Run the script. After finishing, scored rasters will be produced under the MCDA Rasters.gdb geodatabase.
    
 # Sharing and access information
 The code provided, along with the final result figures, graphs, and tables are licensed under a Creative Commons 1.0 Universal License. More information about the full usage rights under this can be found under the license file or tab.
