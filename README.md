@@ -10,7 +10,7 @@
 # General Information
 This geospatial data package was used in the Creating a Serviceability Score project analysis. This project aimed to generate service areas of essential services with ArcGIS, and create a "serviceability score" using cutom weighted Multi-Criteria Decision Analysis (MCDA). Calgary-focussed data was used to provide recommendations focussing on building a more sustainable future for the City of Calgary.
 # Data Overview
-The data provided consists of "Compiled Maps", "Statistics", and "ArcPy Scripts" folders. The data imported from external sources are listed in the reference table provided in the files.
+The data provided consists of "Compiled Maps", "Statistics", and "ArcPy Scripts" folders. The data imported from external sources are listed in the reference table provided in the files. The project .zip file contains  compiled city-wide rasters as an example of generated serviceability results from service areas and scoring in Calgary.
 **Network Geodatabase.gdb**
 Produced network analysis layers for driving, biking, and walking transportation modes, containing Calgary's known roadways and pathways. 
 **Compiled Maps** - Consists of Calgary-based maps of the final generated service areas of each essential service and useful transport method, and final generated score maps from the MCDA script.
