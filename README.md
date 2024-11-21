@@ -54,7 +54,7 @@ Ideally, point shapefiles or XY data should exist for the following essential se
 
 Feature classes or polygon shapefiles are needed for the following boundaries:
 
-    - City Limits/Boundary of Area to analyze
+    - City Limits/Boundary of area to analyze
 
     - Districts or zones where final scores should be calculated and filtered to. For example, all residential zones of a city.
 # Service_Area_Analysis.py
