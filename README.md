@@ -29,9 +29,9 @@ Recommended System Requirements:
   
 -     ~125GB disk space allocated for ArcGIS project
   
--     Intel Core i7-10700k 3.8 GHz or greater
+-     Intel Core i7-10700k 3.8 GHz or greater processor
   
--     Nvidia RTX 3060 or greater
+-     Nvidia GeForce RTX 3060 or greater video card
   
 
 Ideally, point shapefiles or XY data should exist for the following essential services in a city, called facilities:
@@ -51,7 +51,12 @@ Ideally, point shapefiles or XY data should exist for the following essential se
     - Junior High Schools
     
     - Senior High Schools
-    
+
+Feature classes or polygon shapefiles are needed for the following boundaries:
+
+    - City Limits/Boundary of Area to analyze
+
+    - Districts or zones where final scores should be calculated and filtered to. For example, all residential zones of a city.
 # Service_Area_Analysis.py
 To run the script:
 
