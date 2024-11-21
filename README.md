@@ -21,6 +21,17 @@ Produced network analysis layers for driving, biking, and walking transportation
 # Code Compiling and Setup
 The ArcPy Scripts folder needs to be downloaded and extracted to the home (root) folder of an ArcGIS geospatial project. Scripts need to remain under the same functioning folder to function correctly.
 
+Recommended System Requirements:
+
+-     At least 16GB RAM
+  
+-     ~125GB disk space allocated for ArcGIS project
+  
+-     Intel Core i7-10700k 3.8 GHz or greater
+  
+-     Nvidia RTX 3060 or greater
+  
+
 Ideally, point shapefiles or XY data should exist for the following essential services in a city, called facilities:
 
     - Bus Stops
